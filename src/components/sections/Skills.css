@@ -1,0 +1,102 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-2xl);
+}
+
+.skill-category {
+  background-color: var(--color-bg-primary);
+  border: 1px solid rgba(100, 108, 255, 0.15);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.skill-category:hover {
+  border-color: rgba(100, 108, 255, 0.3);
+  background-color: var(--color-bg-tertiary);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.category-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  opacity: 0.8;
+  transition: all var(--transition-fast);
+}
+
+.skill-category:hover .category-icon {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.category-header h3 {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: rgba(100, 108, 255, 0.1);
+  border: 1px solid rgba(100, 108, 255, 0.2);
+  border-radius: 50px;
+  transition: all var(--transition-fast);
+}
+
+.skill-badge:hover {
+  background-color: rgba(100, 108, 255, 0.2);
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.skill-name {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+  }
+
+  .skill-category {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category {
+    padding: var(--spacing-lg);
+  }
+
+  .category-header h3 {
+    font-size: var(--font-size-md);
+  }
+}
