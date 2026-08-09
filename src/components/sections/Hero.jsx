@@ -163,7 +163,7 @@ export default function Hero() {
             <div className="image-frame">
               <div className="image-glow"></div>
               <img
-                src="/assets/IMG_20241227_125747.jpg.jpeg"
+                src="/assets/profile_image.jpeg"
                 alt="Pranjal Shrivastava - Full Stack Developer"
                 className="profile-image"
               />
