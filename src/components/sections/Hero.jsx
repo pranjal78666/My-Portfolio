@@ -121,7 +121,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="/assets/Pranjal_Shrivastava_Resume.pdf"
+                href="/assets/Pranjal_Shrivastava_Resume.pdf?v=2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline btn-large"
