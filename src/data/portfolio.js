@@ -10,6 +10,7 @@ export const portfolioData = {
     social: {
       github: 'https://github.com/pranjal78666',
       linkedin: 'https://linkedin.com/in/pranjal78666',
+      instagram: 'https://www.instagram.com/pranjal.g14/',
       email: 'shrivastavapranjal81@gmail.com'
     }
   },
@@ -22,7 +23,7 @@ export const portfolioData = {
       position: 'Associate Software Engineer',
       type: 'Hybrid',
       startDate: 'Aug 2025',
-      endDate: 'Present',
+      endDate: 'Aug 2026',
       description: 'Full Stack Developer at Galaxy Weblinks Inc., contributing to SaaS and E-commerce platforms.',
       responsibilities: [
         'Contributed to ThinkCEO (Next.js, TypeScript) and ImprintCity (Vue.js, Node.js, PHP, MySQL)',
@@ -90,7 +91,7 @@ export const portfolioData = {
       description: 'A scalable e-commerce platform for custom merchandise and printing services with vendor API integrations.',
       longDescription: 'ImprintCity is a full-featured e-commerce platform connecting custom merchandise suppliers with a comprehensive product management system. I developed critical features including vendor integrations, product synchronization, and performance optimization.',
       startDate: 'Nov 2025',
-      endDate: 'Present',
+      endDate: 'Aug 2026',
       highlights: [
         'Developed and maintained the platform using Vue.js, Node.js, PHP, and MySQL',
         'Integrated PCNA, SanMar, and HPG vendor APIs for real-time product sync',

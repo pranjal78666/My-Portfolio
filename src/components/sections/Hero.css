@@ -149,10 +149,24 @@
   color: var(--color-text-primary);
 }
 
+.hero-title-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
 .hero-subtitle {
   font-size: var(--font-size-3xl);
   font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.hero-tagline {
+  font-size: var(--font-size-lg);
+  font-weight: 400;
   color: var(--color-text-secondary);
+  margin: 0;
 }
 
 /* Rotating Roles Animation */
@@ -160,8 +174,14 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  margin: var(--spacing-md) 0 var(--spacing-lg) 0;
+  margin: var(--spacing-xl) 0 var(--spacing-lg) 0;
   min-height: var(--font-size-2xl);
+}
+
+.role-prefix {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  font-weight: 500;
 }
 
 .role-text {
@@ -355,6 +375,22 @@
   color: var(--color-text-tertiary);
   font-size: var(--font-size-sm);
   animation: float 3s ease-in-out infinite;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-lg);
+  transition: all var(--transition-base);
+  pointer-events: auto;
+  z-index: 10;
+}
+
+.scroll-indicator:hover {
+  color: var(--color-accent);
+  transform: translateX(-50%) scale(1.1);
+}
+
+.scroll-indicator:active {
+  transform: translateX(-50%) scale(0.95);
 }
 
 .scroll-arrow {
@@ -362,6 +398,7 @@
   height: 24px;
   color: var(--color-accent);
   animation: bounce 2s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .scroll-arrow svg {

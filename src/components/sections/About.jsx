@@ -16,7 +16,7 @@ export default function About() {
               </p>
 
               <p className="summary-text">
-                Currently working at Galaxy Weblinks Inc., I've contributed to SaaS and E-commerce platforms, managing everything from UI implementation to database optimization. I'm passionate about clean code, performance optimization, and building systems that just work.
+                Recently worked at Galaxy Weblinks Inc., I contributed to SaaS and E-commerce platforms, managing everything from UI implementation to database optimization. I'm passionate about clean code, performance optimization, and building systems that just work.
               </p>
             </div>
 

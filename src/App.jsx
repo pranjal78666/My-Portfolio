@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import NetworkBackground from './components/NetworkBackground'
 import Hero from './components/sections/Hero'
+import TechStack from './components/TechStack'
 import About from './components/sections/About'
 import Skills from './components/sections/Skills'
 import Experience from './components/sections/Experience'
@@ -43,6 +44,7 @@ function App() {
         <div id="home">
           <Hero />
         </div>
+        <TechStack />
         <div id="about">
           <About />
         </div>
