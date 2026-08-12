@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
+import NetworkBackground from './components/NetworkBackground'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Skills from './components/sections/Skills'
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <div className="app">
+      <NetworkBackground />
       <Navbar activeSection={activeSection} />
       <main>
         <div id="home">
